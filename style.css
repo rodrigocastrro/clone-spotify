@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-container ul li {
+  padding: 0 20px;
+}
+
+.nav-container ul li a:hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+.nav-container ul li:nth-child(3) {
+  border-right: 1px solid #fff;
+}
+
+.conteudo-principal {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: url(./img/spotify-bg.jpg) center center/cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: color;
+}
+
+.conteudo-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-info h2 {
+  font-size: 5rem;
+}
+
+.conteudo-info p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.btn-primario {
+  padding: 15px 80px;
+  border-radius: 25px;
+  border: none;
+  background-color: #1db954;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-primario:hover {
+  background-color: #0e8839;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.footer-content {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer-content ul {
+  margin: 0 60px;
+  list-style: none;
+}
+
+.footer-content ul > p {
+  color: #919496;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-content li {
+  margin: 25px 0;
+}
+
+.footer-content li:hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 20px;
+}
+
+.redes-sociais i {
+  font-size: 25px;
+}
+
+.redes-sociais i:hover {
+  color: #1db954;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 70%;
+  margin: auto;
+  font-weight: bold;
+  color: #919496;
+  font-size: 0.75rem;
+  padding-top: 50px;
+}
+
+.logo-2 {
+  height: 30px;
+  width: auto;
+}
+
+.footer-info ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.footer-info ul li:hover {
+  color: #1db954;
+  cursor: pointer;
+}
